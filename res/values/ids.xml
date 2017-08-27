@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- id's which will be in R.id and you'll use later -->
+  <item type="id" name="name_field_1" />
+  <item type="id" name="name_field_2" />
+  <item type="id" name="name_field_3" />
+  <item type="id" name="name_field_4" />
+  <item type="id" name="name_field_5" />
+  <item type="id" name="name_field_6" />
+  <item type="id" name="name_field_7" />
+  <item type="id" name="name_field_8" />
+  <item type="id" name="name_field_9" />
+  <item type="id" name="name_field_10" />
+  <item name="resume_button_id" type="id"/>
+  <item name="game_in_progress_description_id" type="id"/>
+  <item name="game_in_progress_section_id" type="id"/>
+</resources>

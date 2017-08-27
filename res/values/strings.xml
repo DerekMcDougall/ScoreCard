@@ -1,0 +1,46 @@
+<resources>
+
+    <string name="app_name">ScoreCard</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_card_setup">CardSetup</string>
+    <string name="title_activity_score">ScoreActivity</string>
+    <string name="team_1">Team 1</string>
+    <string name="team_2">Team 2</string>
+    <string name="team_1_label">Team 1:</string>
+    <string name="team_2_label">Team 2:</string>
+    <string name="dealer_label">Dealer:</string>
+    <string name="bid_label">Bid:</string>
+    <string name="bidder_label">Bidder:</string>
+    <string name="trump_label">Trump:</string>
+    <string name="enter_bid_results">Enter Bid</string>
+    <string name="update_score">Update Score</string>
+    <string name="next_hand">Start next hand</string>
+    <string name="hearts">Hearts</string>
+    <string name="spades">Spades</string>
+    <string name="clubs">Clubs</string>
+    <string name="diamonds">Diamonds</string>
+    <string name="high">High</string>
+    <string name="low">Low</string>
+    <string name="title_activity_score_update">ScoreUpdateActivity</string>
+    <string name="team_1_points_label">Team 1 Change:</string>
+    <string name="team_2_points_label">Team 2 Change:</string>
+    <string name="enter_results_label">Enter Hand Results</string>
+    <string name="fill_all_fields">Please provide values for all fields</string>
+    <string name="title_activity_history_grid">HistoryGridActivity</string>
+    <string name="bidder_column">Bidder</string>
+    <string name="bid_column">Bid</string>
+    <string name="trump_column">Trump</string>
+    <string name="start_button">Start New Game</string>
+    <string name="resume_button">Resume Current Game</string>
+    <string name="game_in_progress">Game in progress</string>
+    <string name="game_in_progress_score">Score </string>
+    <string name="title_activity_select_player_count">SelectPlayerCountActivity</string>
+    <string name="select_player_count">Select Number of Players</string>
+    <string name="partner_label">Partner:</string>
+    <string name="offense_points_label">Offense change:</string>
+    <string name="defense_points_label">Defense change:</string>
+    <string name="no_partner">[no partner]</string>
+    <string name="show_game_history">Score Card</string>
+
+</resources>

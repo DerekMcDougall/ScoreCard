@@ -1,0 +1,100 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/top_team_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="100dp"
+        android:text="@string/team_1_points_label"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <freefrogurt.scorecard.ComplementaryEditText
+        android:id="@+id/team1PointsEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/top_team_label"
+        android:layout_below="@+id/top_team_label"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:inputType="numberSigned" >
+
+        <requestFocus />
+    </freefrogurt.scorecard.ComplementaryEditText>
+
+    <TextView
+        android:id="@+id/bottom_team_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/team1PointsEdit"
+        android:layout_below="@+id/team1PointsEdit"
+        android:layout_marginTop="36dp"
+        android:text="@string/team_2_points_label"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <freefrogurt.scorecard.ComplementaryEditText
+        android:id="@+id/team2PointsEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/bottom_team_label"
+        android:layout_below="@+id/bottom_team_label"
+        android:layout_marginTop="22dp"
+        android:ems="10"
+        android:inputType="numberSigned" />
+
+    <Button
+        android:id="@+id/team1GoDownButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/top_team_label"
+        android:layout_alignBottom="@+id/top_team_label"
+        android:layout_marginLeft="32dp"
+        android:layout_toRightOf="@+id/top_team_label"
+        android:onClick="onClickEuchered"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/team2GoDownButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/bottom_team_label"
+        android:layout_alignBottom="@+id/bottom_team_label"
+        android:layout_alignLeft="@+id/team1GoDownButton"
+        android:onClick="onClickEuchered"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/team2PointsEdit"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="37dp"
+        android:onClick="onClickUpdate"
+        android:text="@string/update_score" />
+
+    <TextView
+        android:id="@+id/partner_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/top_team_label"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="23dp"
+        android:text="@string/partner_label"
+        android:visibility="gone"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Spinner
+        android:id="@+id/partner_spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/partner_label"
+        android:visibility="gone"
+        android:layout_below="@+id/partner_label" />
+
+</RelativeLayout>
